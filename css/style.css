@@ -1,0 +1,47 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.nombre{
+    margin: 20px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/*propiedades del nav*/
+
+nav{
+    float: right;
+    margin: 20px 20px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+ul a{
+    color: #000000;
+    text-decoration: none;
+}
+
+ul li{
+    margin: 0 10px;
+    display: inline-block;
+}
+
+/*propiedades de la presentacion*/
+.presentacion{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.presentacion h2{
+    font-size: 55px;
+    font-weight: bold;
+}
+.foto-perfil{
+    width: 368px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 100px;
+}
