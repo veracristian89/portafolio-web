@@ -1,76 +1,108 @@
 body{
     background: #F5F5F5;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 20px;
-}
-
-head{
-    width: 100%;
 }
 .nombre{
-    margin: 30px auto 0 150px;
+    display: inline-block;
+}
+.nombre h1{
+    position: static;
     font-size: 16px;
     font-weight: bold;
-    display: inline-block;
+    width: 102px;
+    height: 19px;
+    margin: 34.5px 0 0 152px;
+    
 }
-
-/*propiedades del nav*/
-
 nav{
-    margin: 30px 150px 0 auto;
-    font-size: 16px;
+    position: static;
+    display: inline-block;
+    margin-top: 34.5px;
+    margin-right: 150px;
     float: right;
 }
-
-ul a{
-    color: #000000;
-    text-decoration: none;
+nav ul li{
+    display: inline-block;
+    padding: 0 16px;
 }
 
-ul li{
-    margin: 0 10px;
-    display: inline-block;
+li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li:last-child{
+    font-weight: bold;
+}
+
+li:hover{
+    text-decoration: underline;
 }
 
 /*propiedades de la presentacion*/
 .presentacion{
     display: inline-block;
-    width: 60%;
-    padding-left: 150px;
+    
 }
-
-.presentacion-imagen{
-    margin-top: 50px;
-    display: inline-block;
-}
-
-.foto-perfil{
-    border-radius: 50%;
+.presentacion h2 {
+    position: static;
+    font-size: 52px;
+    font-weight: 700;
+    width: 751px;
+    height: 122px;
+    margin: 181px 0 0 152px;
 }
 
 .presentacion p{
-    padding-top: 50px;
-}
-
-.presentacion h2{
-    font-size: 55px;
-    font-weight: bold;
+    position: static;
+    font-size: 22px;
+    width: 751px;
+    height: 52px;
+    margin: 24px 0 0 152px ;
 }
 
 .presentacion ul{
-    padding-top: 50px;
+    position: static;
+    width: 455px;
+    height: 19px;
+    margin: 26.5px 0 95px 140px ;
+    
+}
+.presentacion ul li {
+    display: inline-block;
+    padding: 26px 16px;
+
 }
 
+.presentacion-imagen{
+    position: static;
+    margin: 100px 150px 0 17px;
+    float: right;
+}
+
+.presentacion-imagen img{
+    border-radius: 50%;
+    width: 368px;
+}
+
+/* sobre mi */
 
 .sobre-mi{
-    background: #EAF2FD;
-    margin-top: 50px;
-    padding:150px 500px 150px 150px;
+    background-color: #EAF2FD;
+    height: 383px;
 }
 
 .sobre-mi h3{
     font-size: 32px;
-    font-weight: bold;
-    padding-bottom: 16px;
+    font-weight: 700;
+    padding: 64px 0 0 152px;
 }
+
+.sobre-mi p {
+    width: 800px;
+    height: 140px;
+    font-size: 16px;
+    padding: 16px 0 0 152px;
+}
+
+
 
