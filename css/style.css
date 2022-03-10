@@ -42,13 +42,15 @@ li:hover{
     display: inline-block;
     
 }
-.presentacion h2 {
+.contenedor-h2 {
     position: static;
-    font-size: 52px;
-    font-weight: 700;
     width: 751px;
     height: 122px;
     margin: 181px 0 0 152px;
+}
+h2{
+    font-size: 52px;
+    font-weight: 700;
 }
 
 .presentacion p{
@@ -103,5 +105,23 @@ li:hover{
     padding: 16px 0 0 152px;
 }
 
+@media screen and (max-width:900px) {
 
+nav {
+    display: none;
+}
+
+.presentacion-h2{
+    width: 500px;
+    height: 52px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.presentacion-imagen img{
+    width: 146px;
+}
+}
 
