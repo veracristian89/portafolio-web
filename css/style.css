@@ -170,3 +170,39 @@ h2{
 
 }
 
+@media screen and (max-width:500px){
+ 
+.nombre h1{
+    margin: 18px 0 0 32px;
+ }
+
+.presentacion-contenedor-h2{
+    width: 400px;
+    height: auto;
+    margin: 152px 0 8px 32px;
+}
+
+.presentacion-contenedor-p{
+    width: 400px;
+    height: auto;
+    margin: 24px 0 0 32px;
+}
+
+.presentacion ul {
+    margin: 10.5px 0 16px 18px;
+}
+
+.presentacion-imagen{
+    margin: -385px 170px 0 0;
+}
+
+.sobre-mi{
+    width: 474px;
+}
+
+.sobre-mi-contenedor-p{
+    width: 400px;
+}
+
+}
+
