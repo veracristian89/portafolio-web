@@ -42,10 +42,10 @@ li:hover{
     display: inline-block;
     
 }
-.contenedor-h2 {
+.presentacion-contenedor-h2 {
     position: static;
     width: 751px;
-    height: 122px;
+    height: auto;
     margin: 181px 0 0 152px;
 }
 h2{
@@ -53,12 +53,15 @@ h2{
     font-weight: 700;
 }
 
-.presentacion p{
+.presentacion-contenedor-p{
     position: static;
-    font-size: 22px;
     width: 751px;
-    height: 52px;
+    height: auto;
     margin: 24px 0 0 152px ;
+}
+
+.presentacion-contenedor p{
+    font-size: 22px;
 }
 
 .presentacion ul{
@@ -70,7 +73,7 @@ h2{
 }
 .presentacion ul li {
     display: inline-block;
-    padding: 26px 16px;
+    padding: 0 16px;
 
 }
 
@@ -90,38 +93,80 @@ h2{
 .sobre-mi{
     background-color: #EAF2FD;
     height: 383px;
+    padding: 1px 0 0 0;
+    
 }
 
-.sobre-mi h3{
+.sobre-mi-contenedor-h3{
+    margin: 64px 0 0 152px;
+}
+.sobre-mi-contenedor-h3 h3{
     font-size: 32px;
     font-weight: 700;
-    padding: 64px 0 0 152px;
 }
 
-.sobre-mi p {
+.sobre-mi-contenedor-p {
     width: 800px;
-    height: 140px;
-    font-size: 16px;
-    padding: 16px 0 0 152px;
+    height: auto;
+    margin: 16px 0 0 152px;
 }
+
+.sobre-mi-contenedor-p p{
+    font-size: 16px;
+}
+
+
 
 @media screen and (max-width:900px) {
+
+.nombre h1{
+    margin: 34.5px 0 0 32px;
+}
 
 nav {
     display: none;
 }
 
-.presentacion-h2{
+.presentacion-contenedor-h2{
     width: 500px;
-    height: 52px;
+    height: auto;
+    margin: 58px 0 8px 32px;
+}
+
+.presentacion-contenedor-p{
+    width: 500px;
+    height: auto;
+    margin: 24px 0 0 32px;
+}
+
+.presentacion ul{
+    margin: 10.5px 0 95px 18px ;
+}
+
+ul li a{
+    font-weight: 600;
 }
 
 h2{
     font-size: 35px;
 }
 
+.presentacion-imagen{
+    margin: 70px 70px 0 17px;
+}
+
 .presentacion-imagen img{
     width: 146px;
 }
+
+.sobre-mi-contenedor-h3{
+    margin: 32px 0 0 32px;
+}
+
+.sobre-mi-contenedor-p {
+    width: 500px;
+    margin: 16px 0 0 32px;
+}
+
 }
 
