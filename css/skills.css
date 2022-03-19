@@ -35,3 +35,9 @@
 .skills__caja:hover{
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 760px){
+    .skills__cajas{
+        flex-wrap: wrap;
+    }
+}

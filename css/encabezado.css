@@ -37,3 +37,16 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 1165px){
+    .cabecera__titulo{
+        font-size: 1rem;
+        margin: 2rem 0 0 4rem;
+    }
+    .nav__lista{
+        margin: 2rem 4rem 0 0;
+    }
+    .nav__link{
+        font-size: 1rem;
+    }
+}
+
