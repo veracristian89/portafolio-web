@@ -19,6 +19,10 @@
     padding: 0 1rem;
 }
 
+.nav__item:last-child{
+    padding-right: 0;
+}
+
 .nav__link{
     font-size: 1.15rem;
     color: #000000;

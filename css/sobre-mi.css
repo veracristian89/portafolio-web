@@ -1,0 +1,20 @@
+.sobre-mi{
+    background: #EAF2FD;
+}
+
+.sobre-mi__titulo{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 2rem 0 0 7rem;
+    padding-top: 5rem;
+}
+
+.sobre-mi__descripcion{
+    font-size: 1rem;
+    margin: 1rem 0 0 7rem;
+    width: 70%;
+}
+
+.sobre-mi__descripcion:last-child{
+    padding-bottom: 5rem;
+}
