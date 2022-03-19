@@ -42,7 +42,7 @@
 }
 
 .presentacion__imagen{
-    background: url(../imagenes/foto.jpg);
+    background: url(../img/foto.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
