@@ -1,0 +1,35 @@
+.cabecera{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecera__titulo{
+    display: flex;
+    font-size: 1.15rem;
+    margin: 2rem 0 0 7rem;
+}
+
+.nav__lista{
+    display: flex;
+    margin: 2rem 7rem 0 0;
+}
+
+.nav__item{
+    padding: 0 1rem;
+}
+
+.nav__link{
+    font-size: 1.15rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
+
+.nav__link.activo{
+    font-weight: bold;
+}
+

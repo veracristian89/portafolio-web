@@ -1,0 +1,14 @@
+.presentacion__titulo{
+    display: flex;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 7rem 0 0 7rem;
+    width: 50%;
+}
+
+.presentacion__descripcion{
+    display: flex;
+    font-size: 1.25rem;
+    margin: 2rem 0 0 7rem;
+    width: 50%;
+}

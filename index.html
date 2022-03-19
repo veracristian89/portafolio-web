@@ -1,82 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cristian Vera</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/encabezado.css">
+        <link rel="stylesheet" href="css/presentacion.css">
     </head>
 
     <body>
     
-        <header>
+        <header class="cabecera">
             
-            <div class="nombre">
-                <h1>
-                    ✧ Cristian Vera
-                </h1>
-            </div>
+            <h1 class="cabecera__titulo">
+                ✧ Cristian Vera
+            </h1>
             
-            <nav>
-                <ul>
-                    <li><a href="#sobre-mi">Sobre mí</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="#formacion">Formación</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#contacto">veracristian89@gmail.com</a></li>
+            <nav class="nav">
+                <ul class="nav__lista">
+                    <li class="nav__item"><a class="nav__link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#hobbies">Hobbies</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#formacion">Formación</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav__item"><a class="nav__link activo" href="#contacto">veracristian89@gmail.com</a></li>
                 </ul>
             </nav>
 
         </header>
         
-        <section class="section-presentacion">
+        <section class="presentacion">
             
-            <div class="presentacion">
-
-                <div class="presentacion-contenedor-h2">
-                    <h2 class="presentacion-h2">
-                        Hola, mi nombre es Cristian Vera y soy desarrollador web Frontend.
-                    </h2>
-                </div>
-
-                <div class="presentacion-contenedor-p">
-                    <p>
-                        Soy estudiante de la Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales del ISPC (instituto superior politécnico Córdoba) y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.
-                    </p>
-                </div>
-                
-                <ul>
-                    <li><a href="">Github⇗</a></li>
-                    <li><a href="">Linkedin⇗</a></li>
-                    <li><a href="">Instagram⇗</a></li>
-                    <li><a href="">Curriculum⇗</a></li>
-                </ul>
-            </div>
-
-            <div class="presentacion-imagen">
-                <img src="imagenes/Sin título-1.jpg" alt="foto de perfil" class="foto-perfil">
+            <h2 class="presentacion__titulo">
+                Hola, mi nombre es Cristian Vera y soy desarrollador web Frontend.
+            </h2>
+                  
+            <p class="presentacion__descripcion">
+                Soy estudiante de la Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales del ISPC (instituto superior politécnico Córdoba) y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.
+            </p>
+                     
+            <ul class="presentacion__lista">
+                <li><a href="https://github.com/veracristian89">Github⇗</a></li>
+                <li><a href="https://www.linkedin.com/in/cristian-vera-8a2845225/">Linkedin⇗</a></li>
+                <li><a href="https://www.instagram.com/crizgize/">Instagram⇗</a></li>
+                <li><a href="https://drive.google.com/file/d/1G93-aoL8NO_JeefOw9PXQKoGts6ItLb7/view?usp=sharing">Curriculum⇗</a></li>
+            </ul>
+        
+            <div class="presentacion__imagen">
             </div>
             
         </section>
 
         <section class="sobre-mi" id="sobre-mi">
-            <div class="sobre-mi-contenedor-h3">
-                <h3>Sobre mi</h3>
-            </div>
-            <div class="sobre-mi-contenedor-p">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, eos quisquam. Amet, consectetur eius. Quis distinctio ullam, rerum totam voluptatum quasi. Iure eligendi eveniet maxime iste provident modi aliquam fugiat?
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo aliquid itaque consectetur tenetur sed commodi reiciendis, amet aperiam incidunt quaerat unde modi blanditiis, dignissimos illum cum officiis excepturi sint dicta.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi incidunt ipsum pariatur expedita, accusantium maiores. Minus consequuntur suscipit in repellendus cum nemo vero necessitatibus, doloribus aspernatur dolorum qui, ullam modi!
-                </p>
-            </div>
+            
+            <h3 class="sobre-mi__titulo">
+                Sobre mi
+            </h3>
+            
+            
+            <p class="sobre-mi__descripcion">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit    Labore, eos quisquam. Amet, consectetur eius. Quis distincti    ullam, rerum totam voluptatum quasi. Iure eligendi evenie   maxime iste provident modi aliquam fugiat?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ill   aliquid itaque consectetur tenetur sed commodi reiciendis, ame aperiam incidunt quaerat unde modi blanditiis, dignissimos illu  cum officiis excepturi sint dicta.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commod   incidunt ipsum pariatur expedita, accusantium maiores. Minuconsequuntur suscipit in repellendus cum nemo ver   necessitatibus, doloribus aspernatur dolorum qui, ullam modi!
+            </p>
+            
         </section>
                
         <footer>
