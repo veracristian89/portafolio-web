@@ -18,3 +18,16 @@
 .sobre-mi__descripcion:last-child{
     padding-bottom: 5rem;
 }
+
+@media screen and (max-width: 820px){
+    .sobre-mi__titulo{
+        font-size: 1.5rem;
+        margin: 1rem 0 0 2rem;
+        padding-top: 2rem;
+    }
+    .sobre-mi__descripcion{
+        font-size: 1rem;
+        margin: 1rem 0 0 2rem;
+        width: 90%;
+    }
+}

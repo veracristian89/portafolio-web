@@ -50,3 +50,20 @@
     }
 }
 
+@media screen and (max-width: 820px){
+    .cabecera__titulo{
+        font-size: 1rem;
+        margin: 1rem 0 0 2rem;
+    }
+    .nav__lista{
+        margin: 1rem 2rem 0 0;
+    }
+    .nav__item:nth-child(-n+5){
+        display: none;
+    }
+    
+    .nav__link{
+        font-size: 1rem;
+    }
+}
+

@@ -53,3 +53,29 @@
     margin-top: 5rem;
     margin-left: 2.5rem;
 }
+
+@media screen and (max-width: 820px){
+    .presentacion__titulo{
+        font-size: 2rem;
+        margin: 4rem 0 0 2rem;
+    }
+    .presentacion__descripcion{
+        font-size: 1rem;
+        margin: 1rem 0 0 2rem;
+    }
+    .presentacion__lista{
+        margin: 1rem 0 0 2rem;
+        padding-bottom: 2rem;
+    }
+    .presentacion__item{
+        padding: 0 .5rem 0 .5rem;
+    }
+    .presentacion__link{
+        font-size: .8rem;
+    }
+    .presentacion__imagen{
+        width: 170px;
+        height: 170px;
+        margin-left: 1.5rem;
+    }
+}
