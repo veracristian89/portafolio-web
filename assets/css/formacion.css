@@ -41,4 +41,8 @@
     .formacion__cajas{
         flex-wrap: wrap;
     }
+
+    .formacion__img{
+        width: 18rem;
+    }
 }
