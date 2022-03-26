@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.formacion{ 
+    background: #EAF2FD;
+}
+
+.formacion__titulo{
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.formacion__cajas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formacion__caja{
+    margin: 2rem 0 2rem 1rem
+}
+
+.formacion__descripcion{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.formacion__fecha{
+    margin-top: 1rem;
+}
+.formacion__img{
+    width: 25rem;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 760px){
+    .formacion__cajas{
+        flex-wrap: wrap;
+    }
+}

@@ -36,8 +36,13 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 860px){
     .skills__cajas{
         flex-wrap: wrap;
+    }
+    .skills__caja{
+        width: 130px;
+        height: 130px;
+
     }
 }
