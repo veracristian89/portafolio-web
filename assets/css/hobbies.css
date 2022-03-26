@@ -42,3 +42,9 @@
         flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width: 420px){
+    .hobbies__cajas{
+        margin: 1rem;
+    }
+}

@@ -31,3 +31,10 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 420px){
+   
+    .sobre-mi__descripcion{
+        width: 80%;
+    }
+}
