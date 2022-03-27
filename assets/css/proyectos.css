@@ -56,3 +56,26 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+
+@media screen and (max-width: 760px){
+    .proyecto__img{
+        width: 30rem;
+        margin: 0 auto;
+    }
+    .proyecto__caja{
+        flex-direction: column;
+    }
+    .proyecto__derecha{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .proyecto__img{
+        width: 20rem;
+        margin: 0 auto;
+    }
+    .proyecto__caja{
+        flex-direction: column;
+    }
+}
