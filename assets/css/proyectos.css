@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+.proyectos__titulo{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.proyecto__caja{
+    display: flex;
+}
+
+.proyecto__img{
+    width: 40rem;
+    margin: 2rem 0 2rem 7rem;
+}
+
+.proyecto__derecha{
+    display: flex;
+    flex-direction: column;
+    margin: auto 2rem;
+}
+
+.proyecto__titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.proyecto__descripcion{
+    margin-bottom: 0.5rem;
+}
+.proyecto__botones{
+    display: flex;
+}
+
+.proyecto__boton-repo{
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    border: solid 1px #2A7AE4;
+}
+
+.proyecto__boton-demo{
+    background: #2A7AE4;
+    padding: 1rem 2rem;
+}
+
+.proyecto__boton-repo a{
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.proyecto__boton-demo a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
