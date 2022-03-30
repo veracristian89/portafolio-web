@@ -60,3 +60,12 @@
     color: #ffffff;
     width: 20%;
 }
+
+@media screen and (max-width: 820px){
+    .contacto__img{
+        display: none;
+    }
+    .contacto__derecha{
+        margin-right: 2rem;
+    }
+}
