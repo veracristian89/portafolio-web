@@ -4,3 +4,8 @@ body{
     font-weight: 500;
 }
 
+footer{
+    background: #FFFFFF;
+    text-align: center;
+    padding: 3rem 0;
+}
