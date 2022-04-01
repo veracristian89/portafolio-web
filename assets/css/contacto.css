@@ -8,19 +8,23 @@
     margin-left: 7rem;
     margin-bottom: 5rem;
 }
+
 .contacto__derecha{
     display: flex;
     flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
 }
+
 .contacto__titulo{
+    margin-bottom: 1rem;
     font-size: 1.75rem;
     font-weight: bold;
 }
 
-.contacto__derecha{
-    margin-top: 5rem;
-    margin-left: 2rem;
-    margin-bottom: 5rem;
+.contacto__descripcion{
+    margin-bottom: 0.25rem;
 }
 
 .contacto__derecha form{
