@@ -1,6 +1,7 @@
 .contacto{
     background: #EAF2FD;
     display: flex;
+    justify-content: center;
 }
 .contacto__img{
     width: 30rem;
