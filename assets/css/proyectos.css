@@ -11,6 +11,8 @@
 
 .proyecto__caja{
     display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .proyecto__img{
