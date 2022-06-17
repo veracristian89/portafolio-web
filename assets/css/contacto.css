@@ -60,10 +60,17 @@
 }
 
 .contacto__enviar{
+    font-size: .75rem;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
     border: none;
     background: #2A7AE4;
     color: #ffffff;
     width: 20%;
+    border-bottom: solid #cccccc 2px;
 }
 
 @media screen and (max-width: 820px){

@@ -34,7 +34,7 @@
 }
 .formacion__img{
     width: 25rem;
-    border-radius: 2px;
+    border-radius: 1.5rem;
 }
 
 @media screen and (max-width: 860px){
